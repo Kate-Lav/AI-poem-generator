@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Limelight&family=Pompiere&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
   </head>
   <body class="limelight-regular">
@@ -18,7 +19,7 @@
         <h1>🍸 AI Cocktail Recipe Generator 🍸</h1>
       </header>
       <main>
-        <form class="pompiere-regular">
+        <form id="cocktail-generator-form" class="pompiere-regular">
           <input
             class="instructions"
             type="text"
@@ -29,11 +30,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="recipe">
-          The answer will go here
-          <br />
-          And here
-        </div>
+        <div class="recipe" id="recipe"></div>
       </main>
       <footer>
         This project was coded by
