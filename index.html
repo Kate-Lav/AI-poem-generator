@@ -4,35 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Limelight&family=Pompiere&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Poem Generator</title>
   </head>
-  <body>
-    <header>
-    <h1>Welcome to my poem/recipe/whatever generator</h1>
-    </header>
-    <main>
-        <form>
-<input type="text" placeholder="Enter the topic of the thing"
-autofocus
-required
-autocomplete="off"/>
-<input type="submit" />
-
+  <body class="limelight-regular">
+    <div class="container">
+      <header>
+        <h1>🍸 AI Cocktail Recipe Generator 🍸</h1>
+      </header>
+      <main>
+        <form class="pompiere-regular">
+          <input
+            class="instructions"
+            type="text"
+            placeholder="Enter a cocktail ingredient"
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input type="submit" class="submit-button" />
         </form>
-        <div>
-            The answer will go here 
-            <br/>
-            And here 
+        <div class="recipe">
+          The answer will go here
+          <br />
+          And here
         </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Kate-Lav" target="blank">Kate Lavender</a> and
-      is
-      <a href="https://github.com/Kate-Lav/AI-poem-generator" target="blank"
-        >open-sourced on GitHub</a
-    </footer>
-    > and is <a href="https://ai-poem-generato.netlify.app/" target="blank">hosted on Netlify</a>
-    <script src="src/index.js"></script>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Kate-Lav" target="blank">Kate Lavender</a
+        ><br />
+        and is
+        <a href="https://github.com/Kate-Lav/AI-poem-generator" target="blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://ai-poem-generato.netlify.app/" target="blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>
