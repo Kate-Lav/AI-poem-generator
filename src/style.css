@@ -13,8 +13,7 @@ h1 {
 header {
   margin-bottom: 30px;
 }
-form {
-  display: flex;
+.form-wrapper {
   box-shadow: 0px 20px 60px rgba(246, 169, 25, 0.33);
   padding: 30px;
   background-color: #fafafa;
@@ -22,6 +21,15 @@ form {
   border-style: double;
   border-radius: 15px;
   margin-bottom: 35px;
+}
+.hint {
+  padding-top: 20px;
+  line-height: 1.5px;
+  font-size: 12px;
+  color: #d55b3e;
+}
+form {
+  display: flex;
 }
 footer {
   text-align: center;
@@ -67,6 +75,9 @@ a {
   line-height: 24px;
   box-shadow: 0px 20px 60px rgba(246, 169, 25, 0.33);
   margin-bottom: 35px;
+}
+.hidden {
+  display: none;
 }
 .limelight-regular {
   font-family: "Limelight", sans-serif;

@@ -20,19 +20,22 @@
         <h1>🍸 AI Cocktail Recipe Generator 🍸</h1>
       </header>
       <main>
-        <form id="cocktail-generator-form" class="pompiere-regular">
-          <input
-            class="instructions"
-            id="user-instructions"
-            type="text"
-            placeholder="Enter a cocktail ingredient"
-            autofocus
-            required
-            autocomplete="off"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="recipe" id="recipe"></div>
+        <div class="form-wrapper">
+          <form id="cocktail-generator-form" class="pompiere-regular">
+            <input
+              class="instructions"
+              id="user-instructions"
+              type="text"
+              placeholder="Enter a cocktail ingredient"
+              autofocus
+              required
+              autocomplete="off"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">e.g. vodka, lemon, vanilla</div>
+        </div>
+        <div class="recipe hidden" id="recipe"></div>
       </main>
       <footer>
         This project was coded by
