@@ -22,8 +22,6 @@ function generateCocktail(event) {
   cocktailElement.classList.remove("hidden");
   cocktailElement.innerHTML = `Generating a delicious cocktail recipe using ${instructionsInput.value}`;
 
-  console.log(`prompt: ${prompt}`);
-  console.log(`context: ${context}`);
   axios.get(apiUrl).then(displayRecipe);
 }
 
